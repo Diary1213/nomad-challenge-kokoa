@@ -1,0 +1,13 @@
+.settings__setting {
+  padding: 15px 0;
+  border-bottom: var(--main-border);
+  font-size: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settings__setting i {
+  margin-right: 10px;
+  color: #8f8f8f;
+}
