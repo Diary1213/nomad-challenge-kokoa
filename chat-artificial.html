@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body class="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>SKT</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>12:30</span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fa-brands fa-bluetooth"></i>
+        <span>50%</span>
+        <i class="fa-solid fa-battery-half fa-lg"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html">
+          <i class="fa-solid fa-angle-left fa-2x"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Artificial</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fa-solid fa-magnifying-glass fa-xl"></i></span>
+        <span><i class="fa-solid fa-bars fa-xl"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Monday, July 18, 2022</div>
+
+      <div class="message-row">
+        <img
+          src="https://w.namu.la/s/365f60183c439ea5575d3d711d87ee0c3a0e20eae30f782c5f27d7f51b7e14339066e67268c63c07535295a09b60fe017e2bb93912bee5dd57bf9872a2f434615ad57d1aa92a0a7bc737460d04e9e6d884ce96b557ab26ed62c112f48437b184"
+        />
+        <div class="message-row__content">
+          <span class="message__author">Artificial</span>
+          <div class="message__info">
+            <span class="message__bubble"
+              >How did you clear the final stage?
+            </span>
+            <span class="message__time">03:03</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">I got many items </span>
+            <span class="message__time">03:03</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="fa-regular fa-square-plus fa-xl"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="fa-regular fa-face-grin-beam"></i>
+        <button>
+          <i class="fa-solid fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/b8e01e091e.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
