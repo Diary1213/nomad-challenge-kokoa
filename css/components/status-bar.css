@@ -2,6 +2,10 @@
   display: flex;
   justify-content: center;
   padding: 5px 3px;
+  position: fixed;
+  top: 0;
+  box-sizing: border-box;
+  width: 100%;
 }
 .status-bar__column {
   width: 33.3%;
@@ -9,6 +13,8 @@
 .status-bar__column:nth-child(2) {
   display: flex;
   justify-content: center;
+  font-weight: 600;
+  font-size: 20px;
 }
 .status-bar__column:last-child {
   display: flex;
